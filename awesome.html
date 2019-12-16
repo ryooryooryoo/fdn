@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Female Dailt Network</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style type="text/css">
+  	.hover img{
+      transform: scale(0.9, 0.9);
+      transition: all ease-in-out 0.2s;
+      -webkit-filter: saturate(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%)
+
+
+    }
+
+    a.hover:hover img{
+      transform: scale(1,1);
+      transition: all ease-in-out 0.2s;
+      -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%);
+    
+    }
+
+    a.hover:active img{
+      transform: scale(0.95,0.95);
+      transition: all ease-in-out 0.1s;
+    }
+
+
+    #wow{
+      width: 300px;
+      height: 300px;
+      padding: 80px 40px;
+     position: relative;
+      background:url(img/img0.png)no-repeat center;
+     
+    }
+
+    .selected{
+      transform: scale(1,1)!important;
+      filter: grayscale(0%)!important;
+
+
+      
+    }
+
+    .show{
+      opacity: 1!important;
+      transition: all 0.5s;
+    }
+
+    .light{
+     
+    
+      opacity: 0;
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      top: -40px;
+      left: 30px;
+      background:url(img/img2.png)no-repeat center;
+    }
+  </style>
+
+</head>
+
+
+<body class="d-flex align-items-center" style="height: 100vh; ">
+
+<div class="container  ">
+  <div class="col-12 d-flex justify-content-center">
+    
+  <div id="wow" class="d-flex">
+    <a href="#" class="hover" onclick="myFunction()">
+      <div class="light" id="light"></div>
+      <img src="img/img1.png" id="oke">
+    </a>
+  </div>
+  </div>
+</div>
+
+<script>
+  function myFunction() {
+  var element = document.getElementById("oke");
+  element.classList.add("selected");
+  
+
+   var element = document.getElementById("light");
+   element.classList.add("show");
+}
+</script>
+
+</body>
+</html>

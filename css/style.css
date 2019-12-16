@@ -1,0 +1,172 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import url('https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+body{
+	font-family: 'roboto', 'helvetica', sans-serif;
+	font-size: 1rem;
+
+}
+
+main{
+	padding-top: 100px;
+	
+}
+
+.medium{
+	font-size: 1rem;
+}
+
+.small{
+	font-size: 12px;
+}
+
+.text-medium{
+	font-weight: 500;
+}
+.text-bold{
+	font-weight: 700;
+}
+
+
+
+.large{
+	font-size: 20px;
+}
+
+
+.text-grey{
+	color: #9b9b9b;
+}
+
+.red-text{
+	color: #DA284E!important;
+}
+.noto{
+	font-family: 'Noto Sans', sans-serif!important; 
+
+}
+
+.mont{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a.reset{
+	color: inherit;
+}
+
+.tribar{
+	
+}
+
+.mdi-36px.mdi-set, .mdi-36px.mdi:before{
+	font-size: 32px!important;
+}
+
+.font-serif{
+	font-family: serif;
+}
+
+a.btn-login{
+	color: #fff;
+	padding-left: 60px;
+
+ 
+
+}
+
+.header-right {
+	width: 230px;
+		background: url("../img/icons/ic_profile.png") no-repeat  #DA284E ;
+	background-position: 25px 50%;
+}
+
+.border-bottom,
+.border-top,
+.border-left,
+.border-right,
+.boder{
+	border-color: #d0d0d0!important;
+}
+
+
+nav.subnav .nav-link{
+	color: #000;
+	font-weight: 700;
+}
+
+h4.title{
+
+	font-weight: 700;
+}
+
+.photo-profile-small {
+	width: 60px;
+	height: 60px;
+}
+
+.card.editor-choice .card-header{
+	background: transparent;
+	border: 0;
+	margin-bottom: -26px;
+	z-index: 10;
+	padding-right: 0px;
+
+}
+
+.card.editor-choice .card-body{
+	border: 1px solid #d0d0d0;
+	border-radius: 10px;
+		background: transparent;
+		word-break: break-word;
+		    min-height: 364px;
+		    padding: 16px;
+}
+
+.card.editor-choice span.desc{
+	line-height: 10px!important;
+	
+}
+
+.image-product-wrapper{
+
+	width: 140px;
+    height: 188px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+
+    margin: 0 auto;
+}
+
+.image-product-wrapper img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.banner-background{
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 405px;
+    width: 100%;
+    margin: 0 0 60px 0;
+    background-image: url(../img/banner_matches_visitor.png);
+}
+
+.btn-primary{
+	font-size: 16px;
+	background-color: #db284e!important;
+	border-radius: 4px;
+}
+
+.content-beuty-id{
+	width: 300px;
+	margin-left: 144px;
+	margin-top: 34px;
+}
